@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Hero Lectro </title>
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js " defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" async />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" async />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top bg_blur">
+      <div class="container-fluid containerframe">
+        <a class="navbar-brand" href="#">
+          <img loading="lazy" src="static/hero_logo.png" alt="logo" width="350" height="100" class="img-fluid mobhide">
+          <img loading="lazy" src="static/hero_logo.png" alt="logo" width="150" height="50" class="img-fluid webhide">
+        </a>
+        <div class="d-flex align-items-center">
+          <div class="d-flex">
+            <p class="me-2 mobhide mb-0">Select Language</p>
+            <select aria-label="Default select example"
+              class="bg_remove mobhide border border-2 border-dark border-top-0 border-start-0 border-end-0">
+              <option selected>English</option>
+            </select>
+            <select aria-label="Default select example"
+              class="bg_remove webhide border border-2 border-dark border-top-0 border-start-0 border-end-0">
+              <option selected>En</option>
+            </select>
+          </div>
+          <div class="d-flex ms-3">
+            <a href="tel:+18008892004" class="text-decoration-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="bi bi-telephone-fill"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+              </svg>
+              <span class="ms-2 text-dark mobhide">1800 889 2004</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="banner">
+      <div class="bg_grey">
+        <div class="container-fluid containerframe removepadding clone-banner-height d-flex">
+          <div class="mt-auto mx-auto">
+            <h1 class="headline3 fw-bold text-uppercase text-dark font_primary text-center">
+              hoslon ki nayi udaan
+            </h1>
+            <p class="headline6 text-uppercase text-dark font_secondary text-center">
+              apni e-cycle apna rozgar
+            </p>
+            <div class="text-center">
+              <a href="#choose_bike" class="title2 btn button_primary font_primary">
+                KNOW MORE
+              </a>
+            </div>
+            <img loading="lazy"  src="static/e_cycle.png" alt="e-cycle" class="img-fluid" width="900">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="bg-white">
+        <div class="container-fluid containerframe component-padding">
+          <h2 class="common-margin mt-0 font_primary headline3 text-center text-capitalize fw-bold">
+            About us
+          </h2>
+          <p class="headline6 mb-0 font_primary text-center">
+            Hero Lectro Cargo E-bikes & trikes <strong>reliable affordable & rewarding solutions for all your transit
+              needs.</strong> These bikes offer a highly versaltile and efficient way to transport packages, cargo, food
+            and more. In addition to the benefits of electric cycle, these purpose build vehicles are <strong>light
+              engineered</strong>, boast <strong>of increased shipment per trip capacity, higher productivity & lower
+              cost of ownership</strong> Therefore, <strong>with an e-cargo bike you can do more & earn more
+            </strong><strong class="text-danger">by spending less</strong>..
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="choose_bike">
+      <div class="position-relative">
+        <div class="bg_grey">
+          <div class="container-fluid containerframe component-padding">
+            <h3 class="common-margin mt-0 font_primary headline3 text-center text-capitalize fw-bold">
+              Choose Your Ride!
+            </h3>
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner containerframe">
+                <div class="carousel-item active">
+                  <img loading="lazy"  src="static/full_bike.png" class="img-fluid d-block w-70 m-auto" alt="full_bike">
+                  <div class="text-end">
+                    <a href="#choose_bike" class="common-margin title2 btn button_primary font_primary">
+                      GET IN TOUCH
+                    </a>
+                  </div>
+                  <p class="common-padding common-margin pb-0 mb-0 headline4 font_primary fw-bold text-center">
+                    MRP ₹ 45,000*
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <img loading="lazy"  src="static/full_bike.png" class="img-fluid d-block w-70 m-auto" alt="full_bike">
+                  <div class="text-end">
+                    <a href="#choose_bike" class="common-margin title2 btn button_primary font_primary">
+                      GET IN TOUCH
+                    </a>
+                  </div>
+                  <p class="common-padding common-margin pb-0 mb-0 headline4 font_primary fw-bold text-center">
+                    MRP ₹ 50,000*
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img loading="lazy"  src="static/coming_soon.png" alt="coming_soon" class="coming_soon">
+      </div>
+    </section>
+
+    <section id="technical_features">
+      <div class="bg_offwhite">
+        <div class="container-fluid containerframe component-padding">
+          <h4 class="common-margin mt-0 font_primary headline4 text-center text-capitalize">
+            Technical Features
+          </h4>
+          <div class="row justify-content-evenly">
+            <div class="col-auto">
+              <img loading="lazy"  src="static/icon_1.png" alt="icon_1">
+            </div>
+            <div class="col-auto">
+              <img loading="lazy"  src="static/icon_2.png" alt="icon_2">
+            </div>
+            <div class="col-auto">
+              <img loading="lazy"  src="static/icon_3.png" alt="icon_3">
+            </div>
+            <div class="col-auto">
+              <img loading="lazy"  src="static/icon_4.png" alt="icon_4">
+            </div>
+            <div class="col-auto">
+              <img loading="lazy"  src="static/icon_5.png" alt="icon_5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="who_buy">
+      <div class="bg-white">
+        <div class="container-fluid containerframe component-padding">
+          <h5 class="common-margin mt-0 font_primary headline3 text-center text-capitalize fw-bold">
+            Who should buy it?
+          </h5>
+          <div class="row">
+            <div class="col-md-4 common-margin mt-0">
+              <div class="card text-bg-dark">
+                <img loading="lazy"  src="static/card_cover.png" class="card-img img-fluid" alt="card_cover" width="10px">
+                <div class="card-img-overlay">
+                  <p class="card-text who_text_card headline4 fw-bold font_primary">
+                    Self-Employed
+                    <br>
+                    <a href="#choose_bike" id="knowMoreBtn" class="common-margin mb-0 title2 text-capitalize btn button_primary font_primary">
+                      Know More
+                  </a>
+                  </p>
+                </div>
+                <div id="overlay" class="overlay">
+                    <div class="overlay-content p-4 pb-0">
+                        <p class="fw-bold text-dark font_primary headline6">
+                          Local Business
+                        </p>
+                        <p class="overline font_primary text-dark">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button id="closeBtn" class="btn ps-0 overline font_primary text-dark">Know More ></button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 common-margin mt-0">
+              <div class="card text-bg-dark">
+                <img loading="lazy"  src="static/card_cover.png" class="card-img img-fluid" alt="card_cover" width="10px">
+                <div class="card-img-overlay">
+                  <p class="card-text who_text_card headline4 fw-bold font_primary">
+                    Self-Employed
+                    <br>
+                    <a href="#choose_bike"
+                      class="common-margin mb-0 title2 text-capitalize btn button_primary font_primary">
+                      Know More
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-0">
+              <div class="card text-bg-dark">
+                <img loading="lazy"  src="static/card_cover.png" class="card-img img-fluid" alt="card_cover" width="10px">
+                <div class="card-img-overlay">
+                  <p class="card-text headline4 who_text_card fw-bold font_primary">
+                    Self-Employed
+                    <br>
+                    <a href="#choose_bike"
+                      class="common-margin mb-0 title2 text-capitalize btn button_primary font_primary">
+                      Know More
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="front_back_bike">
+      <div class="container-fluid p-0">
+        <div class="card rounded-0 border-0 bg_grey">
+          <img loading="lazy"  src="static/front_back_bike.png" class="card-img img-fluid" alt="card_cover">
+          <div class="card-img-overlay">
+            <div class="front_back_bike_text mobhide">
+              <p class="card-text headline4 fw-bold font_primary">
+                Front & Rear Carrier
+              </p>
+              <p class="headline6 font_secondary">
+                180 liter of goods storage space.
+                <br>
+                Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptas, dolore?
+              </p>
+            </div>
+            <div class="front_back_bike_text webhide">
+              <p class="card-text  headline6 fw-bold font_primary mb-2">
+                Front & Rear Carrier
+              </p>
+              <p class="title2 fw-normal font_primary">
+                180 liter of goods storage space.
+                <br>
+                Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Voluptas, dolore?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="led_display">
+      <div class="container-fluid p-0">
+        <div class="card rounded-0 border-0 bg_offwhite">
+          <img loading="lazy"  src="static/led_display.png" class="card-img img-fluid" alt="card_cover">
+          <div class="card-img-overlay">
+            <div class="led_display_text mobhide ps-5">
+              <p class="card-text headline4 fw-bold font_primary">
+                LED Display
+              </p>
+              <p class="headline6 font_secondary">
+                180 liter of goods storage space.
+                <br>
+                Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Voluptas, dolore?
+              </p>
+            </div>
+            <div class="led_display_text webhide">
+              <p class="card-text headline6 fw-bold font_primary mb-2">
+                LED Display
+              </p>
+              <p class="title2 fw-normal font_secondary">
+                180 liter of goods storage space.
+                <br>
+                Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptas, dolore?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cycle_part">
+      <div class="bg_offwhite">
+        <div class="container-fluid containerframe common-padding">
+          <div class="row">
+            <div class="col-md-6">
+              <img loading="lazy"  src="static/cycle_part.png" alt="cycle_part" class="img-fluid w-100 common-margin">
+            </div>
+            <div class="col-md-6 m-auto p-5">
+              <p class="card-text headline4 fw-bold font_primary">
+                Quick Release <br> Locable Bettary
+              </p>
+              <p class="headline6 font_secondary">
+                180 liter of goods storage space.
+                <br>
+                Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptas, dolore?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="parking">
+      <div class="bg_offwhite">
+        <div class="container-fluid p-0 text-center">
+          <img loading="lazy"  src="static/bike_tyer.png" alt="e-cycle" class="img-fluid" width="900">
+          <h6 class="component-padding mt-0 font_primary headline3 text-capitalize fw-bold mb-0">
+            Sturdy Center Stand for Stable Parking
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <section id="advantage">
+      <div class="bg_offwhite">
+        <div class="container-fluid containerframe component-padding">
+          <h6 class="common-margin mt-0 font_primary headline3 text-center text-capitalize fw-bold">
+            Cargo E-Bikes’ Advantage
+          </h6>
+          <div class="table-width">
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th class="th-color-1 font_primary title1">CHALLENGES</th>
+                    <th class="th-color-2 font_primary title1">ICE 2W FOR CARGO</th>
+                    <th class="th-color-3 font_primary title1">CARGO E-BIKES</th>
+                    <th class="th-color-4 font_primary title1">TRIKE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="td-color-1 font_primary title2">Capacity(Space)</td>
+                    <td class="td-color-2 font_primary title2">25-30kgs</td>
+                    <td class="td-color-3 font_primary title2">70kgs</td>
+                    <td class="td-color-4 font_primary title2">100kgs</td>
+                  </tr>
+                  <tr>
+                    <td class="td-color-1 font_primary title2">Storage Space</td>
+                    <td class="td-color-2 font_primary title2">Low</td>
+                    <td class="td-color-3 font_primary title2">Medium</td>
+                    <td class="td-color-4 font_primary title2">High</td>
+                  </tr>
+                  <tr>
+                    <td class="td-color-1 font_primary title2">Street Legal</td>
+                    <td class="td-color-2 font_primary title2">No</td>
+                    <td class="td-color-3 font_primary title2">Yes</td>
+                    <td class="td-color-4 font_primary title2">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="td-color-1 font_primary title2">Environment</td>
+                    <td class="td-color-2 font_primary title2">Unfriendly</td>
+                    <td class="td-color-3 font_primary title2">Friendly</td>
+                    <td class="td-color-4 font_primary title2">Friendly</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Partner">
+      <div class="bg-white">
+          <div class="container-fluid containerframe component-padding">
+              <h6 class="common-margin mt-0 font_primary headline3 text-center text-capitalize fw-bold">
+                  Our Partner
+              </h6>
+              <div class="partner owl-carousel owl-theme">
+                <div class="item">
+                  <div>
+                    <img loading="lazy"  src="static/amazon.png" class="img-fluid partner-image" alt="profilepic">
+                  </div>
+                </div>
+                <div class="item">
+                  <div>
+                    <img loading="lazy"  src="static/flipkart.png" class="img-fluid partner-image" alt="profilepic">
+                  </div>
+                </div>
+                <div class="item">
+                  <div >
+                    <img loading="lazy"  src="static/ebay.png" class="img-fluid partner-image" alt="profilepic">
+                  </div>
+                </div>
+                <div class="item">
+                  <div>
+                    <img loading="lazy"  src="static/dell.png" class="img-fluid partner-image" alt="profilepic">
+                  </div>
+                </div>
+                <div class="item">
+                  <div>
+                    <img loading="lazy"  src="static/hp.png" class="img-fluid partner-image" alt="profilepic">
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="bg_offwhite">
+        <div class="container-fluid containerframe component-padding">
+          <h6 class="common-margin mt-0 font_primary headline3 text-center text-capitalize fw-bold">
+            Testimonials
+          </h6>
+          <div class="testimonials owl-carousel owl-theme">
+            <div class="item">
+              <div class="card mb-3 border-0 bg_offwhite">
+                <div class="row g-0">
+                  <div class="col-md-2">
+                    <img loading="lazy"  src="static/profile.jpg" class="img-fluid rounded-circle" alt="profilepic">
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body">
+                      <p class="fw-bold font_primary headline6">
+                        <span>"</span>Naddy Roy <br> -CEO of Hero
+                      </p>
+                      <p class="font_secondary title2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus, facilis architecto aperiam similique, obcaecati,.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card mb-3 border-0 bg_offwhite">
+                <div class="row g-0">
+                  <div class="col-md-2">
+                    <img loading="lazy"  src="static/profile.jpg" class="img-fluid rounded-circle" alt="profilepic">
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body">
+                      <p class="fw-bold font_primary headline6">
+                        <span>"</span>Jhon Deo<br> -CEO of Dell
+                      </p>
+                      <p class="font_secondary title2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus, facilis architecto aperiam similique, obcaecati,.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card mb-3 border-0 bg_offwhite">
+                <div class="row g-0">
+                  <div class="col-md-2">
+                    <img loading="lazy"  src="static/profile.jpg" class="img-fluid rounded-circle" alt="profilepic">
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body">
+                      <p class="fw-bold font_primary headline6">
+                        <span>"</span>Naddy Roy <br> -Developer
+                      </p>
+                      <p class="font_secondary title2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus, facilis architecto aperiam similique, obcaecati,.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="latest_buzz">
+      <div class="bg-white">
+        <div class="container-fluid containerframe component-padding">
+          <h6 class="common-margin mt-0 font_primary headline3 text-center text-capitalize fw-bold">
+            Latest buzz about the Hero Lectro E-Cycles
+          </h6>
+          <div class="latest_buzz owl-carousel owl-theme">
+              <div class="item">
+                <div class="card mb-3 border-0 bg_offwhite">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img loading="lazy"  src="static/card_cover.png" class="img-fluid rounded-start image-card" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <p class="fw-bold font_primary headline6">
+                          Auto Expo 2024 Hero
+                        </p>
+                        <p class="font_secondary title2">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus, facilis architecto aperiam similique, obcaecati,.
+                        </p>
+                        <button class="btn button_primary title2 text-uppercase">
+                            Know more
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card mb-3 border-0 bg_offwhite">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img loading="lazy"  src="static/card_cover.png" class="img-fluid rounded-start image-card" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <p class="fw-bold font_primary headline6">
+                          Auto Expo 2024 Hero
+                        </p>
+                        <p class="font_secondary title2">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus, facilis architecto aperiam similique, obcaecati,.
+                        </p>
+                        <button class="btn button_primary title2 text-uppercase">
+                            Know more
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card mb-3 border-0 bg_offwhite">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img loading="lazy"  src="static/card_cover.png" class="img-fluid rounded-start image-card" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <p class="fw-bold font_primary headline6">
+                          Auto Expo 2024 Hero
+                        </p>
+                        <p class="font_secondary title2">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus, facilis architecto aperiam similique, obcaecati,.
+                        </p>
+                        <button class="btn button_primary title2 text-uppercase">
+                            Know more
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="bg_offwhite">
+        <div class="container-fluid containerframe component-padding">
+          <h6 class="common-margin mt-0 font_primary headline3 text-center text-capitalize fw-bold">
+            Get in Touch
+          </h6>
+          <div class="row">
+            <div class="col-md-6 m-auto">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 form-group common-margin mt-0">
+                    <label for="name" class="form-label font_primary title2">Your Name</label>
+                    <input type="text" class="form-control border-0 rounded-0 p-2" id="name"
+                      placeholder="Enter your name">
+                  </div>
+                  <div class="col-md-6 form-group common-margin mt-0">
+                    <label for="email" class="form-label font_primary title2">Your Email</label>
+                    <input type="email" class="form-control border-0 rounded-0 p-2" id="email"
+                      placeholder="Enter your email">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 form-group common-margin mt-0">
+                    <label for="phone" class="form-label font_primary title2">Phone Number</label>
+                    <input type="tel" class="form-control border-0 rounded-0 p-2" id="phone"
+                      placeholder="Enter your phone number">
+                  </div>
+                  <div class="col-md-6 form-group common-margin mt-0">
+                    <label for="select" class="form-label font_primary title2">Department</label>
+                    <select class="form-select border-0 rounded-0 p-2" id="select">
+                      <option value="">Select an option</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 form-group common-margin mt-0">
+                    <label for="message" class="form-label font_primary title2">Message</label>
+                    <textarea class="form-control border-0 rounded-0" id="message" rows="4"
+                      placeholder="Enter your message"></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="btn button_primary font_primary">Submit now</button>
+              </form>
+            </div>
+            <div class="col-md-6 m-auto text-center">
+              <img loading="lazy"  src="static/contact_bike.png" class="img-fluid" alt="e-cycle bike">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section id="footer">
+      <div class="bg-dark">
+        <div class="container-fluid containerframe component-padding">
+          <div class="row common-margin mb-0">
+            <div class="col-md-6 m-auto">
+              <h6 class="text-uppercase font_primary text-white fw-bold title1">
+                Corporate office
+              </h6>
+              <p class="font_primary text-white">
+                <a class="text-decoration-none text-white fw-normal" href="https://goo.gl/maps/kNzJUUGmK2dRiGHFA">C Wing,
+                  Flexcel Park, Jogeshwari (W),<br> Mumbai - 102, Maharashtra</a><br>
+                <a class="text-decoration-none text-white fw-normal" href="tel:+91 96580 05959">+91 96580 05959</a><br>
+                <a class="text-decoration-none text-white fw-normal" href="mailto:info@hero.com">info@hero.com</a>
+              </p>
+              <div class="map-container webhide remove-tab">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.315792379109!2d-122.42067968468195!3d37.77992697975909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d85e05469%3A0x900d5d5e0b82e473!2sUnion%20Square!5e0!3m2!1sen!2sus!4v1589380292131!5m2!1sen!2sus"
+                  width="600" height="450" allowfullscreen="" loading="lazy">
+                </iframe>
+              </div>
+              <div class="mob-center tabstart input-group align-items-end common-margin">
+                <svg xmlns="http://www.w3.org/2000/svg" class="webhide" width="50" height="50" fill="#ffffff"
+                  class="bi bi-journal-arrow-down" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5" />
+                  <path
+                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2" />
+                  <path
+                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mobhide" width="70" height="70" fill="#ffffff"
+                  class="bi bi-journal-arrow-down" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5" />
+                  <path
+                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2" />
+                  <path
+                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z" />
+                </svg>
+                <p class="title1 font_primary text-white mb-0 ms-2">
+                  DOWNLOAD <br> E-BROCHURE
+                </p>
+              </div>
+              <div class="mob-center tabstart input-group align-items-center">
+                <h6 class="text-uppercase font_primary text-white fw-bold title1 mb-0">
+                  social :
+                </h6>
+                <svg fill="#fff" height="40px" width="40px" class="ms-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M272.8,560.7 c-20.8,20.8-44.9,37.1-71.8,48.4c-27.8,11.8-57.4,17.7-88,17.7c-30.5,0-60.1-6-88-17.7c-26.9-11.4-51.1-27.7-71.8-48.4 c-20.8-20.8-37.1-44.9-48.4-71.8C-107,461.1-113,431.5-113,401s6-60.1,17.7-88c11.4-26.9,27.7-51.1,48.4-71.8 c20.9-20.8,45-37.1,71.9-48.5C52.9,181,82.5,175,113,175s60.1,6,88,17.7c26.9,11.4,51.1,27.7,71.8,48.4 c20.8,20.8,37.1,44.9,48.4,71.8c11.8,27.8,17.7,57.4,17.7,88c0,30.5-6,60.1-17.7,88C309.8,515.8,293.5,540,272.8,560.7z"></path> <path d="M146.8,313.7c10.3,0,21.3,3.2,21.3,3.2l6.6-39.2c0,0-14-4.8-47.4-4.8c-20.5,0-32.4,7.8-41.1,19.3 c-8.2,10.9-8.5,28.4-8.5,39.7v25.7H51.2v38.3h26.5v133h49.6v-133h39.3l2.9-38.3h-42.2v-29.9C127.3,317.4,136.5,313.7,146.8,313.7z"></path> </g> </g>
+                </svg>
+                <svg fill="#fff" height="40px" width="40px" class="ms-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M272.8,560.7 c-20.8,20.8-44.9,37.1-71.8,48.4c-27.8,11.8-57.4,17.7-88,17.7c-30.5,0-60.1-6-88-17.7c-26.9-11.4-51.1-27.7-71.8-48.4 c-20.8-20.8-37.1-44.9-48.4-71.8C-107,461.1-113,431.5-113,401s6-60.1,17.7-88c11.4-26.9,27.7-51.1,48.4-71.8 c20.9-20.8,45-37.1,71.9-48.5C52.9,181,82.5,175,113,175s60.1,6,88,17.7c26.9,11.4,51.1,27.7,71.8,48.4 c20.8,20.8,37.1,44.9,48.4,71.8c11.8,27.8,17.7,57.4,17.7,88c0,30.5-6,60.1-17.7,88C309.8,515.8,293.5,540,272.8,560.7z"></path> <path d="M234.3,313.1c-10.2,6-21.4,10.4-33.4,12.8c-9.6-10.2-23.3-16.6-38.4-16.6c-29,0-52.6,23.6-52.6,52.6c0,4.1,0.4,8.1,1.4,12 c-43.7-2.2-82.5-23.1-108.4-55c-4.5,7.8-7.1,16.8-7.1,26.5c0,18.2,9.3,34.3,23.4,43.8c-8.6-0.3-16.7-2.7-23.8-6.6v0.6 c0,25.5,18.1,46.8,42.2,51.6c-4.4,1.2-9.1,1.9-13.9,1.9c-3.4,0-6.7-0.3-9.9-0.9c6.7,20.9,26.1,36.1,49.1,36.5 c-18,14.1-40.7,22.5-65.3,22.5c-4.2,0-8.4-0.2-12.6-0.7c23.3,14.9,50.9,23.6,80.6,23.6c96.8,0,149.7-80.2,149.7-149.7 c0-2.3,0-4.6-0.1-6.8c10.3-7.5,19.2-16.7,26.2-27.3c-9.4,4.2-19.6,7-30.2,8.3C222.1,335.7,230.4,325.4,234.3,313.1z"></path> </g> </g>
+                </svg>
+                <svg fill="#fff" height="40px" width="40px" class="ms-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M272.8,560.7 c-20.8,20.8-44.9,37.1-71.8,48.4c-27.8,11.8-57.4,17.7-88,17.7c-30.5,0-60.1-6-88-17.7c-26.9-11.4-51.1-27.7-71.8-48.4 c-20.8-20.8-37.1-44.9-48.4-71.8C-107,461.1-113,431.5-113,401s6-60.1,17.7-88c11.4-26.9,27.7-51.1,48.4-71.8 c20.9-20.8,45-37.1,71.9-48.5C52.9,181,82.5,175,113,175s60.1,6,88,17.7c26.9,11.4,51.1,27.7,71.8,48.4 c20.8,20.8,37.1,44.9,48.4,71.8c11.8,27.8,17.7,57.4,17.7,88c0,30.5-6,60.1-17.7,88C309.8,515.8,293.5,540,272.8,560.7z"></path> <path d="M191.6,273h-157c-27.3,0-49.5,22.2-49.5,49.5v52.3v104.8c0,27.3,22.2,49.5,49.5,49.5h157c27.3,0,49.5-22.2,49.5-49.5V374.7 v-52.3C241,295.2,218.8,273,191.6,273z M205.8,302.5h5.7v5.6v37.8l-43.3,0.1l-0.1-43.4L205.8,302.5z M76.5,374.7 c8.2-11.3,21.5-18.8,36.5-18.8s28.3,7.4,36.5,18.8c5.4,7.4,8.5,16.5,8.5,26.3c0,24.8-20.2,45.1-45.1,45.1C88,446.1,68,425.8,68,401 C68,391.2,71.2,382.1,76.5,374.7z M216.1,479.5c0,13.5-11,24.5-24.5,24.5h-157c-13.5,0-24.5-11-24.5-24.5V374.7h38.2 c-3.3,8.1-5.2,17-5.2,26.3c0,38.6,31.4,70,70,70c38.6,0,70-31.4,70-70c0-9.3-1.9-18.2-5.2-26.3h38.2V479.5z"></path> </g> </g>
+                </svg>
+                <svg fill="#fff" height="40px" width="40px" class="ms-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M272.8,560.7 c-20.8,20.8-44.9,37.1-71.8,48.4c-27.8,11.8-57.4,17.7-88,17.7c-30.5,0-60.1-6-88-17.7c-26.9-11.4-51.1-27.7-71.8-48.4 c-20.8-20.8-37.1-44.9-48.4-71.8C-107,461.1-113,431.5-113,401s6-60.1,17.7-88c11.4-26.9,27.7-51.1,48.4-71.8 c20.9-20.8,45-37.1,71.9-48.5C52.9,181,82.5,175,113,175s60.1,6,88,17.7c26.9,11.4,51.1,27.7,71.8,48.4 c20.8,20.8,37.1,44.9,48.4,71.8c11.8,27.8,17.7,57.4,17.7,88c0,30.5-6,60.1-17.7,88C309.8,515.8,293.5,540,272.8,560.7z"></path> <path d="M196.9,311.2H29.1c0,0-44.1,0-44.1,44.1v91.5c0,0,0,44.1,44.1,44.1h167.8c0,0,44.1,0,44.1-44.1v-91.5 C241,355.3,241,311.2,196.9,311.2z M78.9,450.3v-98.5l83.8,49.3L78.9,450.3z"></path> </g> </g>
+                </svg>
+              </div>
+            </div>
+            <div class="col-md-6 m-auto">
+              <div class="map-container mobhide only-tab">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.315792379109!2d-122.42067968468195!3d37.77992697975909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d85e05469%3A0x900d5d5e0b82e473!2sUnion%20Square!5e0!3m2!1sen!2sus!4v1589380292131!5m2!1sen!2sus"
+                  width="600" height="450" allowfullscreen="" loading="lazy">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg_light_black">
+            <div class="container-fluid containerframe">
+              <p class="text-white text-center font_primary mb-0 pt-2">
+                Terms and conditions
+              </p>
+              <ul class="m-auto mb-0 text-white font_primary pb-2 pt-2 w-fit">
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, corrupti fugiat non!</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. culpa quos iste soluta</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
