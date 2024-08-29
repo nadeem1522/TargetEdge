@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+}
+
+.font_primary{
+    font-family: var(--Poppins);
+}
+.font_secondary{
+    font-family: var(--Roboto);
+}
+
+/* #web */
+@media only screen and (min-width:970px){
+    .headline1{
+        font-size: 80px;
+        letter-spacing: -1.25px;
+        line-height: 110%;
+    }
+    .headline2{
+        font-size: 64px;
+        letter-spacing: -0.2px;
+        line-height: 115%;
+    }
+    .headline3{
+        font-size: 48px;
+        letter-spacing: 0px;
+        line-height: 110%;
+    }
+    .headline4{
+        font-size: 36px;
+        letter-spacing: 0.1px;
+        line-height: 120%;
+    }
+    .headline5{
+        font-size: 24px;
+        letter-spacing: 0.25px;
+        line-height: 120%;
+    }
+    .headline6{
+        font-size: 22px;
+        letter-spacing: 0.15px;
+        line-height: 120%;
+    }
+    .title1{
+        font-size:18px;
+        letter-spacing: 1.75px;
+        line-height: normal;
+    }
+    .title2{
+        font-size: 16px;
+        letter-spacing: 1.3px;
+        line-height: normal;
+    }
+    .title3{
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        line-height: 140%;
+    }
+    .overline{
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        line-height: normal;
+    }
+
+
+}
+
+/* #mob */
+@media only screen and (max-width:969px){
+    .headline1{
+        font-size: 48px;
+        letter-spacing: 0px;
+        line-height: 110%;
+    }
+    .headline2{
+        font-size: 32px;
+        letter-spacing: 0.1px;
+        line-height: 120%;
+    }
+    .headline3{
+        font-size: 24px;
+        letter-spacing: 0.2px;
+        line-height: 120%;
+    }
+    .headline4{
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        line-height: 120%;
+    }
+    .headline5{
+        font-size: 18px;
+        letter-spacing: 0.2px;
+        line-height: 120%;
+    }
+    .headline6{
+        font-size: 16px;
+        letter-spacing: 0.15px;
+        line-height: 120%;
+    }
+    .title1{
+        font-size:14px;
+        letter-spacing: 1.5px;
+        line-height: normal;
+    }
+    .title2{
+        font-size: 12px;
+        letter-spacing: 1.75px;
+        line-height: 140%;
+    }
+    .title3{
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        line-height: 140%;
+    }
+    .overline{
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: normal;
+    }
+}

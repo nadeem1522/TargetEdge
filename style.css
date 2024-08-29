@@ -1,0 +1,437 @@
+:root {
+    --grey: #b7b7b7;
+    --offwhite: #EFEFEF;
+    --light_black: #111111
+}
+
+.bg_grey {
+    background-color: var(--grey);
+}
+
+.bg_offwhite {
+    background-color: var(--offwhite);
+}
+
+
+.bg_blur {
+    backdrop-filter: blur(5px);
+}
+
+.bg_remove {
+    background-color: transparent;
+}
+
+.bg_light_black {
+    background-color: var(--light_black);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.offwhite {
+    color: var(--offwhite);
+}
+
+.button_primary:hover {
+    color: white;
+    background-color: black;
+}
+
+.who_text_card {
+    position: absolute;
+    bottom: 20px;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+.table td,
+.table th {
+    width: 25%;
+    text-align: center;
+    align-content: center;
+}
+
+.th-color-1 {
+    background-color: #5c5c5c !important;
+    color: #ffffff !important;
+}
+
+.th-color-2 {
+    background-color: #EBEBEB !important;
+}
+
+.th-color-3 {
+    background-color: #DADADA !important;
+}
+
+.th-color-4 {
+    background-color: #EBEBEB !important;
+}
+
+.td-color-1 {
+    background-color: #838383 !important;
+    color: #ffffff !important;
+}
+
+.td-color-2 {
+    background-color: #DFDBDC !important;
+}
+
+.td-color-3 {
+    background-color: #C6C6C6 !important;
+}
+
+.td-color-4 {
+    background-color: #DFDBDC !important;
+}
+
+.table-width {
+    max-width: 900px;
+    margin: auto;
+}
+
+.latest_buzz .owl-next{
+    position: absolute;
+    right: 0px;
+    top: 40%;
+  }
+
+.latest_buzz .owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+}
+
+.testimonials .owl-next{
+    position: absolute;
+    right: 0px;
+    top: 40%;
+  }
+
+.testimonials .owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+}
+
+.partner .owl-next{
+    position: absolute;
+    right: 0px;
+    top: 40%;
+  }
+
+.partner .owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+}
+
+.partner-image{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.owl-item{
+    visibility: hidden;
+}
+
+.owl-item.active{
+    visibility: visible;
+}
+
+.image-card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 10;
+}
+
+.overlay.show {
+    transform: translateY(0); 
+    opacity: 1;
+}
+
+/* #web */
+@media only screen and (min-width:970px) {
+    .coming_soon{
+        position: absolute;
+        right: 20px;
+        top: -30px;
+        width: 20%;
+    }
+
+    .front_back_bike_text {
+        position: absolute;
+        right: 15%;
+        top: 10%;
+    }
+
+    .led_display_text {
+        position: absolute;
+        top: 40%;
+    }
+
+    .component-padding {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .component-margin {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .common-padding {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .common-margin {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .containerframe {
+        width: 1240px
+    }
+
+    .webhide {
+        display: none;
+    }
+
+    .button_primary {
+        padding: 8px 15px;
+        color: white;
+        background-color: black;
+        border-radius: 0%;
+    }
+
+    .button_secondary {
+        padding: 10px 24px;
+        border-radius: 8px;
+        color: var(--darkgrey-100);
+        background-color: transparent;
+        border: 2px solid var(--darkgrey-100);
+    }
+
+    .clone-banner-height {
+        height: 650px;
+    }
+
+    .newnavmargin {
+        padding-top: 74px;
+    }
+
+    .carousel-indicators button:first-of-type {
+        width: 35px;
+        height: 15px;
+        border-radius: 50%;
+        background: linear-gradient(90deg, rgba(236, 240, 241, 1) 50%, rgba(22, 41, 107, 1) 50%);
+    }
+
+    .carousel-indicators button:nth-of-type(2) {
+        width: 35px;
+        height: 15px;
+        border-radius: 50%;
+        background: linear-gradient(90deg, rgba(255, 103, 36, 1) 50%, rgba(50, 52, 51, 1) 50%);
+    }
+
+    .carousel-indicators {
+        bottom: 8%;
+    }
+
+}
+
+/* #mob */
+@media only screen and (max-width:969px) {
+    .coming_soon {
+        position: absolute;
+        right: 8px;
+        top: -12px;
+        width: 28%;
+    }
+
+    .front_back_bike_text {
+        position: absolute;
+        right: 15px;
+        top: 3%;
+        width: 53%;
+    }
+
+    .led_display_text {
+        position: absolute;
+        top: 22%;
+        width: 70%;
+    }
+
+
+    .carousel-indicators button:first-of-type {
+        width: 25px;
+        height: 5px;
+        border-radius: 50%;
+        background: linear-gradient(90deg, rgba(236, 240, 241, 1) 50%, rgba(22, 41, 107, 1) 50%);
+    }
+
+    .carousel-indicators button:nth-of-type(2) {
+        width: 25px;
+        height: 5px;
+        border-radius: 50%;
+        background: linear-gradient(90deg, rgba(255, 103, 36, 1) 50%, rgba(50, 52, 51, 1) 50%);
+    }
+
+    .carousel-indicators {
+        bottom: 6%;
+    }
+
+    .common-padding {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .common-margin {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .component-padding {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .component-margin {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .mob-center {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mobhide {
+        display: none;
+    }
+
+    .button_primary {
+        padding: 4px 10px;
+        color: white;
+        background-color: black;
+        border-radius: 0%;
+    }
+
+    .button_secondary {
+        padding: 8px 16px;
+        border-radius: 8px;
+        color: var(--darkgrey-100);
+        background-color: transparent;
+        border: 2px solid var(--darkgrey-100);
+    }
+
+    .clone-banner-height {
+        height: 350px;
+    }
+
+    .newnavmargin {
+        padding-top: 68px;
+    }
+
+}
+
+/* #tab */
+@media only screen and (min-width:600px) and (max-width:969px) {
+    .coming_soon{
+        position: absolute;
+        right: 20px;
+        top: -16px;
+        width: 20%;
+    }
+
+    .front_back_bike_text {
+        position: absolute;
+        right: 0px;
+        top: 10%;
+        width: 53%;
+    }
+
+    .led_display_text {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+    }
+
+    .remove-tab {
+        display: none;
+    }
+
+    .clone-banner-height {
+        height: 380px;
+    }
+
+    .tabhide {
+        display: none;
+    }
+
+    .only-tab{
+        display: block;
+    }
+
+    .tabstart{
+        text-align: start;
+        justify-content: start;
+    }
+}
+
+/* #med */
+@media only screen and (min-width:1167px) and (max-width:1264px) {
+    .containerframe {
+        width: 1140px
+    }
+}
+
+/* #small */
+@media only screen and (min-width:1024px) and (max-width:1166px) {
+    .coming_soon{
+        position: absolute;
+        right: 20px;
+        top: -20px;
+        width: 20%;
+    }
+
+    .containerframe {
+        width: 1000px
+    }
+}
